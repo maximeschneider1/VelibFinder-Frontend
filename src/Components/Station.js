@@ -6,7 +6,7 @@ import CardContent from "@material-ui/core/CardContent";
 const useStyles = makeStyles({
   root: {
     minWidth: 275,
-    backgroundColor: "#FFFFFF",
+
     textAlign: "left",
   },
   stationWrapper: {
@@ -18,6 +18,7 @@ const useStyles = makeStyles({
 
 export default function Station({ station }) {
   const classes = useStyles();
+
 
   return (
     <div className={classes.stationWrapper}>
