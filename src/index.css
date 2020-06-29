@@ -13,25 +13,6 @@ code {
     monospace;
 }
 
-
-.toolbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-}
-
-.toolbar h1 {
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-bottom: 2%;
-}
-
-.toolbar h3 {
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-bottom: 2.5%;
-}
-
 .home {
   min-height: 100vh;
   margin-left: 10%;
