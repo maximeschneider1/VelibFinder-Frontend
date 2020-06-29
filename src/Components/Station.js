@@ -17,8 +17,8 @@ const useStyles = makeStyles({
     display: "flex",
   },
   velibTotalText: {
-    marginLeft: '10px'
-  }
+    marginLeft: "10px",
+  },
 });
 
 export default function Station({ station }) {
@@ -37,19 +37,23 @@ export default function Station({ station }) {
                 <img
                   src="https://www.velib-metropole.fr/assets/static_files/images/velo_meca_green@2x.png"
                   alt="mechanical-velib"
-                  width='50px'
-                  height='30px'
+                  width="50px"
+                  height="30px"
                 />
-                <h4 className={classes.velibTotalText}>{station.num_mechanical_bikes} Vélib méchaniques</h4>
+                <h4 className={classes.velibTotalText}>
+                  {station.num_mechanical_bikes} Vélib méchaniques
+                </h4>
               </div>
               <div className={classes.velibsTotalWrapper}>
                 <img
                   src="https://www.velib-metropole.fr/assets/static_files/images/velo_elec_bleu@2x.png"
                   alt="electrical-velib"
-                  height='50px'
-                  width='50px'
+                  height="50px"
+                  width="50px"
                 />
-                <h4 className={classes.velibTotalText}>{station.num_electric_bikes} Vélib électriques </h4>
+                <h4 className={classes.velibTotalText}>
+                  {station.num_electric_bikes} Vélib électriques{" "}
+                </h4>
               </div>
             </div>
           </div>
