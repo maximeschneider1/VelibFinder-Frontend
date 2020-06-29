@@ -23,7 +23,6 @@ function Home() {
 
   }, []);
 
-
   return (
     <div className="home">
     {loading ? <h1>Chargement...</h1> :

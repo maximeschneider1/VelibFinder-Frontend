@@ -32,7 +32,7 @@ export default function Station({ station }) {
           <div>
             <div>
               <h3>{station.station}</h3>
-              <h4>Vélib disponibles : {station.num_bikes_available}</h4>
+              <h4>Vélib' disponibles : {station.num_bikes_available}</h4>
               <div className={classes.velibsTotalWrapper}>
                 <img
                   src="https://www.velib-metropole.fr/assets/static_files/images/velo_meca_green@2x.png"
@@ -41,7 +41,7 @@ export default function Station({ station }) {
                   height="30px"
                 />
                 <h4 className={classes.velibTotalText}>
-                  {station.num_mechanical_bikes} Vélib méchaniques
+                  {station.num_mechanical_bikes} Vélib' méchaniques
                 </h4>
               </div>
               <div className={classes.velibsTotalWrapper}>
@@ -52,7 +52,7 @@ export default function Station({ station }) {
                   width="50px"
                 />
                 <h4 className={classes.velibTotalText}>
-                  {station.num_electric_bikes} Vélib électriques{' '}
+                  {station.num_electric_bikes} Vélib' électriques{' '}
                 </h4>
               </div>
             </div>

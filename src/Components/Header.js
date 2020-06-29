@@ -20,7 +20,7 @@ export default function Header() {
 
   return (
     <React.Fragment>
-      <AppBar position="static" color="primary">
+      <AppBar position="static">
           <div className={classes.toolbar}>
             <h1 className={classes.h1}>Splio Velib' Finder</h1>
             <h3 className={classes.h1}>Maxime Schneider</h3>
