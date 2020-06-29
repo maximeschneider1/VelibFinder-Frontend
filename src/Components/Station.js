@@ -1,28 +1,28 @@
-import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
-import Card from "@material-ui/core/Card";
-import CardContent from "@material-ui/core/CardContent";
+import React from 'react'
+import { makeStyles } from '@material-ui/core/styles'
+import Card from '@material-ui/core/Card'
+import CardContent from '@material-ui/core/CardContent'
 
 const useStyles = makeStyles({
   root: {
     minWidth: 275,
-    textAlign: "left",
+    textAlign: 'left',
   },
   stationWrapper: {
     width: 300,
-    overflow: "auto",
-    margin: "2%",
+    overflow: 'auto',
+    margin: '2%',
   },
   velibsTotalWrapper: {
-    display: "flex",
+    display: 'flex',
   },
   velibTotalText: {
-    marginLeft: "10px",
+    marginLeft: '10px',
   },
-});
+})
 
 export default function Station({ station }) {
-  const classes = useStyles();
+  const classes = useStyles()
 
   return (
     <div className={classes.stationWrapper}>
@@ -52,7 +52,7 @@ export default function Station({ station }) {
                   width="50px"
                 />
                 <h4 className={classes.velibTotalText}>
-                  {station.num_electric_bikes} Vélib électriques{" "}
+                  {station.num_electric_bikes} Vélib électriques{' '}
                 </h4>
               </div>
             </div>
@@ -60,5 +60,5 @@ export default function Station({ station }) {
         </CardContent>
       </Card>
     </div>
-  );
+  )
 }
